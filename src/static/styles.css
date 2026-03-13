@@ -142,3 +142,46 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.no-participants {
+  font-size: 14px;
+  color: #999;
+  font-style: italic;
+}
+
+.unregister-btn {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 4px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.unregister-btn:hover {
+  color: #e53935;
+  background: none;
+}
